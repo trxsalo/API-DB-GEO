@@ -1,7 +1,8 @@
 ###ALGUNOS COMANDO
 
-npm run dev //LEVANTA EL SERVIDOR DE DESARROLO
-npx gulp ts //COMPILA TODO EL PROYECTO DE LA CARPETA SRC
+npm run dev //LEVANTA EL SERVIDOR DE DESARROLLO
+
+npx gulp tys //COMPILA TODO EL PROYECTO DE LA CARPETA SRC (se deve resolver!!)
 
 
 
@@ -12,9 +13,9 @@ npx gulp ts //COMPILA TODO EL PROYECTO DE LA CARPETA SRC
     npm i
 4.- Crea un carpeta con el nombre environments en la raiz
 
-    detro de ella cre on archivo env.ts
+    detro de ella cree un archivo con el nombre env.ts
 
-    dentro de ella añade los siguiente:
+    dentro de ella añade las siguientes linea de codigo:
 
     export const PROCESS_ENV={
     SERVER_PORT: 123456, //puerto de DB
@@ -27,3 +28,14 @@ npx gulp ts //COMPILA TODO EL PROYECTO DE LA CARPETA SRC
 
 5.- Agrege sus variables de entorno env.ts
 
+
+
+  /$$$$$$   /$$$$$$  /$$        /$$$$$$  /$$      /$$ /$$$$$$$$
+ /$$__  $$ /$$__  $$| $$       /$$__  $$| $$$    /$$$| $$_____/
+| $$  \__/| $$  \ $$| $$      | $$  \ $$| $$$$  /$$$$| $$      
+|  $$$$$$ | $$$$$$$$| $$      | $$  | $$| $$ $$/$$ $$| $$$$$   
+ \____  $$| $$__  $$| $$      | $$  | $$| $$  $$$| $$| $$__/   
+ /$$  \ $$| $$  | $$| $$      | $$  | $$| $$\  $ | $$| $$      
+|  $$$$$$/| $$  | $$| $$$$$$$$|  $$$$$$/| $$ \/  | $$| $$$$$$$$
+ \______/ |__/  |__/|________/ \______/ |__/     |__/|________/
+               
