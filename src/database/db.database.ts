@@ -7,7 +7,7 @@ export async function connet() {
         user: PROCESS_ENV.USER_DB,
         host: PROCESS_ENV.HOST_DB,
         database: PROCESS_ENV.DATABSE,
-        password: PROCESS_ENV.PASSWORD_DB,
+        password: '4444',
         port: PROCESS_ENV.SERVER_PORT
     })
     return con;
