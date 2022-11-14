@@ -2,11 +2,14 @@
 import { Router } from "express";
 
 import {
-    getConsulta
+    getLote,
+    getPrueba
 } from '../controllers/get.controllers'
 
 const route = Router();
 
-route.get('/get',getConsulta);
+route.get('/getLote',getLote);
+route.get('/getPrueba',getPrueba);
+
 
 export default route;
