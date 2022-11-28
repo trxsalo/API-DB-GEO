@@ -10,6 +10,7 @@
   "author": "TRXSALO",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "gulp": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "nodemon": "^2.0.20",
@@ -21,6 +22,7 @@
     "@types/morgan": "^1.9.3",
     "@types/node": "^18.11.9",
     "@types/pg": "^8.6.5",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "pg": "^8.8.0"
