@@ -1,4 +1,4 @@
-
+import cors from 'cors';
 import express,{ Application} from "express";
 import morgan from "morgan";
 import Inicio from './routes/inicio.routes'
@@ -17,8 +17,10 @@ export class App{
     }
 
     middleware(){
+	this.app.use(cors());
         this.app.use(morgan('dev')); 
         this.app.use(express.json());
+	this.app.use(express.urlencoded({extended:false}));
     }
     configuracion(){
 
