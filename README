@@ -11,22 +11,8 @@ npx gulp tys //COMPILA TODO EL PROYECTO DE LA CARPETA SRC (se deve resolver!!)
 2.-Habra la consola en la direccion de este proyecto(donde guardo)
 3.- Descarga los Modulos
     npm i
-4.- Crea un carpeta con el nombre environments en la raiz
+4.- En la carpeta con el nombre environments configure sus variables de entorno
 
-    detro de ella cree un archivo con el nombre env.ts
-
-    dentro de ella añade las siguientes linea de codigo:
-
-    export const PROCESS_ENV={
-    SERVER_PORT: 123456, //puerto de DB
-    USER_DB:'NAME', //nombre de la DB
-    PASSWORD_DB:1234, //contra del DB
-    DATABSE: 'NAME', //nombre de la DB
-    HOST_DB: 'localhost', //lugar donde corre DB
-    PORT_SERVE:6000 //puerto donde correra el servidor de este proyecto
-    } 
-
-5.- Agrege sus variables de entorno env.ts
 
 
 
